@@ -1,0 +1,15 @@
+#find name and weight of each red part
+
+USE parts;
+
+SELECT PNAME, WEIGHT
+FROM PART
+WHERE
+COLOUR = 'RED';
+
+#find all unique supplier names from London
+
+SELECT DISTINCT SNAME
+FROM SUPPLIER
+WHERE
+CITY = 'LONDON'
